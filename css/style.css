@@ -1,0 +1,110 @@
+* {
+  margin : 0 ;
+  padding : 0 ;
+  box-sizing: border-box;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  background-color: #b91450;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  padding: 20px 0 ;
+}
+
+.top {
+  height: 25vh;
+  width: 80vw;
+  background-color: white;
+  color: #b91450;
+  border-radius: 6px;
+  margin: 0 auto;
+  padding: 20px 30px ;
+}
+
+.dati {
+  width: 70%;
+  height: 70%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.dati div {
+  width: 33.3333%;
+}
+
+.dati div input ,  .dati div .eta{
+  padding: 8px;
+  margin-top: 12px;
+  border: 1px solid #b91450;
+  color: black;
+  border-radius: 7px;
+  background-color: white;
+}
+
+
+.bottoni {
+  height: 30%;
+}
+
+.bottoni button {
+  padding: 8px;
+  background-color: lightgrey;
+  color: #b91450;
+  margin-left: 15px;
+  font-size: 15px;
+  border-radius: 8px;
+}
+
+.box {
+  background-color: white;
+  height: 40vh;
+  width: 80vw;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.biglietto {
+  height: 90%;
+  margin: 5px auto;
+  padding: 15px;
+}
+
+.dettagli-biglietto {
+  height: 80%;
+  display: flex;
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
+}
+
+.dettagli-biglietto .left {
+  width: 30%;
+  height: 100%;
+  background-color: grey;
+  padding: 10px;
+}
+
+.dettagli-biglietto .left h3:first-of-type {
+  color: #b91450;
+}
+
+.dettagli-biglietto .center {
+  width: 25%;
+  height: 100%;
+  padding: 10px;
+}
+
+.dettagli-biglietto .center h3 , .dettagli-biglietto .right h3{
+  padding-top: 15px;
+  height: 70%;
+}
+
+.dettagli-biglietto .right {
+  width: 15%;
+  height: 100%;
+  padding: 10px;
+}
