@@ -60,11 +60,9 @@ h1 {
   border-radius: 8px;
 }
 
-/* .bot {
+.bot {
   opacity: 0;
-} */
-.show {
-  opacity: 1;
+  transition : all .3s;
 }
 
 .box {
