@@ -2,7 +2,7 @@
 
  document.getElementById("genera").addEventListener("click" , function() {
       var myElement = "";
-      myElement = document.getElementById("bot").classList.remove("bot");
+      myElement = document.getElementById("bot").classList.add("show");
       var x = document.getElementById("nome").value;
       document.getElementById("nome-biglietto").innerHTML = x;
       var km = document.getElementById("km").value;
@@ -23,6 +23,6 @@
 
 document.getElementById("annulla").addEventListener("click" , function() {
   var myElement = "";
-  myElement = document.getElementById("bot").classList.add("bot");
+  myElement = document.getElementById("bot").classList.remove("show");
   document.getElementById("myForm").reset();
 });

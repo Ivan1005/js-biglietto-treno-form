@@ -38,6 +38,7 @@ h1 {
 }
 
 .dati div input ,  .dati div .eta{
+  text-align: center;
   padding: 8px;
   margin-top: 12px;
   border: 1px solid #b91450;
@@ -64,7 +65,10 @@ h1 {
   opacity: 0;
   transition : all .3s;
 }
-
+.show {
+  opacity: 1;
+  transition: all .3s;
+}
 .box {
   background-color: white;
   height: 40vh;
@@ -86,6 +90,10 @@ h1 {
   border-top: 1px solid grey;
 }
 
+.dettagli-biglietto div p {
+  font-size: 20px;
+}
+
 .dettagli-biglietto .left {
   width: 30%;
   height: 100%;
@@ -95,6 +103,7 @@ h1 {
 
 .dettagli-biglietto .left h3:first-of-type {
   color: #b91450;
+  padding-bottom: 20px;
 }
 
 .dettagli-biglietto .center {
