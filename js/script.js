@@ -24,4 +24,5 @@
 document.getElementById("annulla").addEventListener("click" , function() {
   var myElement = "";
   myElement = document.getElementById("bot").classList.add("bot");
+  document.getElementById("myForm").reset();
 });
