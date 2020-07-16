@@ -1,8 +1,6 @@
 
-
  document.getElementById("genera").addEventListener("click" , function() {
-      var myElement = "";
-      myElement = document.getElementById("bot").classList.add("show");
+      var myElement = document.getElementById("bot").classList.add("show");
       var x = document.getElementById("nome").value;
       document.getElementById("nome-biglietto").innerHTML = x;
       var km = document.getElementById("km").value;
@@ -19,6 +17,7 @@
       document.getElementById("price").innerHTML = finale;
       document.getElementById("carrozza").innerHTML = Math.floor(Math.random() * (9 - 1) + 1);
       document.getElementById("vagone").innerHTML = Math.floor(Math.random() * (99999 - 90000) + 90000);
+      
 });
 
 document.getElementById("annulla").addEventListener("click" , function() {

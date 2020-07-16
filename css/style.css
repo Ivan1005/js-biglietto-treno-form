@@ -15,7 +15,7 @@ h1 {
   color: white;
   padding: 20px 0 ;
 }
-
+/* INIZIO SEZIONE SUPERIORE */
 .top {
   height: 25vh;
   width: 80vw;
@@ -25,7 +25,7 @@ h1 {
   margin: 0 auto;
   padding: 20px 30px ;
 }
-
+/* INIZIO FORM DATI */
 .dati {
   width: 70%;
   height: 70%;
@@ -46,7 +46,7 @@ h1 {
   border-radius: 7px;
   background-color: white;
 }
-
+/* FINE FORM DATI INIZIO BOTTONI  */
 
 .bottoni {
   height: 30%;
@@ -60,7 +60,7 @@ h1 {
   font-size: 15px;
   border-radius: 8px;
 }
-
+/* FINE SEZIONE SUPERIORE  */
 .bot {
   opacity: 0;
   transition : all .3s;
